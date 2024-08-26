@@ -1,40 +1,183 @@
 {
-	"Hero": {
-		"h1": "快速制作落地页",
-		"h2": "这是一个免费、开源且功能强大的落地页模板，适用于SaaS项目，它将帮助您更快地启动您的创业项目。"
-	},
-	"Feature": {
-		"h2": "Feature",
-		"h3": "乘风-落地页模板的特点",
-		"description1": "出色的落地页模板。",
-		"description2": "基于Next.JS、DaisyUI、TailwindCSS和其他强大的库。",
-		"description3": "完全开源且完全免费。"
-	},
-	"Pricing": {
-		"h2": "Pricing",
-		"h3": "选择您的计划",
-		"description": "选择最适合您需求的计划。",
-		"doYouLike": "你喜欢这个落地页模板吗？",
-		"follow": "关注我的推特。"
-	},
-	"Testimonial": {
-		"h2": "Testimonial",
-		"h3": "Wall of Love",
-		"description1": "如果您使用这个落地页模板并在您的推特上推荐它，",
-		"description2": "请告诉我",
-		"description3": "，我会在这里展示您的推文和推荐。"
-	},
-	"Faq": {
-		"h2": "FAQ",
-		"h3": "常见问题",
-		"description": "以下是一些最常见的问题。"
-	},
-	"CTA": {
-		"h2": "立即构建您的落地页",
-		"h3": "构建您的落地页，展示您的产品，并开始盈利！"
-	},
-	"CTAButton": {
-		"btn1": "获取源代码",
-		"btn2": "查看文档"
-	}
+  "Hero": {
+    "h1": "创建你独特的动漫世界",
+    "h2": "使用AI技术轻松生成独特的动漫角色和场景。"
+  },
+  "Generator": {
+    "promptPlaceholder": "描述你的动漫角色或场景...",
+    "buttonTextGenerate": "生成",
+    "buttonTextGenerating": "生成中",
+    "loadingText": "正在生成你的动漫...",
+    "noContentError": "请在生成前输入提示词！",
+    "toastSuccess": "动漫生成成功！",
+    "failedError": "图像生成失败：",
+    "nsfwError": "检测到不适当内容。请尝试不同的提示词。",
+    "toastError": "生成图像时发生未知错误",
+    "genResult": "生成的动漫预览",
+    "genResultDes": "这是你生成的动漫预览。",
+    "genResultLoading": "正在生成你的动漫...",
+    "genResultLoadingDes": "你的动漫正在生成中...",
+    "genResultError": "动漫生成失败：",
+    "genResultErrorDes": "请重试。",
+    "galleryLoadError": "加载图片失败。请稍后再试。",
+    "galleryLoading": "加载中...",
+    "galleryTitle": "使用AI Anime Generator创作",
+    "galleryViewMore": "查看更多灵感",
+    "animeDetails": "动漫详情",
+    "animeDetailsAlt": "你生成的动漫预览。",
+    "prompt": "提示词",
+    "model": "模型",
+    "createTime": "创建于",
+    "copyPrompt": "复制提示词",
+    "copySuccess": "提示词复制成功！",
+    "copyError": "复制提示词失败：",
+    "download": "下载动漫",
+    "downloadSuccess": "动漫下载成功！"
+  },
+  "Inspiration": {
+    "metaTitle": "AI Anime Generator - 灵感页面",
+    "metaDescription": "探索AI生成的动漫图像，为你的创作获取灵感。",
+    "ogTitle": "AI Anime Generator - 灵感页面",
+    "ogDescription": "探索AI生成的动漫图像，为你的创作获取灵感。",
+    "ogImageAlt": "AI Anime Generator",
+    "title": "灵感",
+    "breadcrumbHome": "首页",
+    "breadcrumbInspiration": "灵感"
+  },
+  "MyInspiration": {
+    "title": "我的动漫灵感",
+    "breadcrumbHome": "首页",
+    "breadcrumbMyInspiration": "我的灵感",
+    "createFirstAnime": "创建你的第一个动漫",
+    "startCreating": "开始创作你的动漫灵感，在这里查看它们！",
+    "aiGeneratedImage": "AI生成的动漫图像",
+    "noInspirations": "未找到灵感",
+    "loading": "加载中...",
+    "promptCopied": "提示词复制成功！",
+    "promptCopyFailed": "复制提示词失败：",
+    "downloadStarted": "下载已开始",
+    "downloadFailed": "下载图片失败：",
+    "fullView": "完整查看",
+    "imageDetails": "图片详情",
+    "prompt": "提示词",
+    "model": "模型",
+    "createdOn": "创建于",
+    "styles": "风格",
+    "copyPrompt": "复制提示词",
+    "downloadImage": "下载图片"
+  },
+  "Pagination": {
+    "previous": "上一页",
+    "next": "下一页",
+    "page": "页"
+  },
+  "Feature": {
+    "h2": "我们的特点",
+    "h3": "你唯一需要的AI动漫生成器",
+    "breadcrumbHome": "首页",
+    "breadcrumbFeature": "特点",
+    "feature1": "AI驱动创作",
+    "description1": "利用尖端AI技术，仅通过文字描述就能将你的动漫创意变为现实。",
+    "feature2": "动漫角色设计",
+    "description2": "使用我们的AI动漫生成器轻松创建你自己独特的动漫角色。将你的文字和想法转化为令人惊叹的视觉效果！",
+    "feature3": "多样化艺术风格",
+    "description3": "生成各种风格的动漫，从经典到现代，满足不同偏好和艺术视觉。",
+    "feature4": "高质量输出",
+    "description4": "享受高分辨率、细节丰富的动漫图像，可直接用于你的项目或个人欣赏。",
+    "feature5": "用户友好界面",
+    "description5": "我们直观的平台使任何人，无论艺术技能如何，都能创作出惊人的动漫艺术。",
+    "button": "生成AI动漫"
+  },
+  "HowItWorks": {
+    "h2": "如何生成AI动漫",
+    "h3": "简单三步生成你的动漫",
+    "description1_title": "描述你的想法",
+    "description1": "输入你想创建的动漫角色或场景的详细描述。",
+    "description2_title": "AI生成",
+    "description2": "我们先进的AI处理你的描述并生成独特的动漫作品。",
+    "description3_title": "下载并欣赏",
+    "description3": "预览生成的图像，如需要可进行调整，然后下载你的创作。",
+    "button": "生成AI动漫"
+  },
+  "Pricing": {
+    "h2": "定价",
+    "h3": "选择合适的计划生成更多动漫",
+    "breadcrumbHome": "首页",
+    "breadcrumbPricing": "定价",
+    "monthly": "月付",
+    "annually": "年付",
+    "saveUpTo": "最高节省25%",
+    "bestValue": "最佳价值",
+    "mostPopular": "最受欢迎",
+    "basic_button": "订阅",
+    "free_button": "开始使用",
+    "billed": "按年计费",
+    "basic_title": "基础版",
+    "pro_title": "专业版",
+    "free_title": "免费版",
+    "subscribe": "订阅",
+    "plan": "计划",
+    "premium": "高级服务即将推出",
+    "soon": "留下你的邮箱，我们会通知你！",
+    "cancel": "取消",
+    "submit": "提交",
+    "submit1": "用户",
+    "submit2": "想订阅",
+    "submit3": "计划",
+    "submitSuccess": "感谢你的兴趣！我们会在高级服务可用时通知你。"
+  },
+  "Testimonial": {
+    "h2": "用户评价",
+    "description": "听听我们满意用户对AnimeAI的体验。"
+  },
+  "Faq": {
+    "h2": "AI Anime Generator常见问题"
+  },
+  "CTA": {
+    "h2": "使用我们免费的AI Anime Generator将文字转化为动漫",
+    "h3": "捕捉你的想法，用AI Anime Generator将你的创意变为现实！只需在框中输入关键词来丰富你的图像描述，获得完美的结果。使用AI Anime Generator应用，创作艺术动漫比以往任何时候都更容易。",
+    "button": "生成AI动漫"
+  },
+  "footer": {
+    "productTitle": "AI Anime Generator",
+    "productDescription": "捕捉你的想法，用AI Anime Generator将你的创意变为现实！只需在框中输入关键词来丰富你的图像描述，获得完美的结果。使用AI Anime Generator应用，创作艺术动漫比以往任何时候都更容易。",
+    "ourProducts": "我们的产品",
+    "aiAnimeGenerator": "AI Anime Generator",
+    "aiAnimeGeneratorTitle": "AI Anime Generator",
+    "usefulLinks": "有用链接",
+    "resources": "资源",
+    "privacyPolicy": "隐私政策",
+    "privacyPolicyTitle": "隐私政策",
+    "termsOfService": "服务条款",
+    "termsOfServiceTitle": "服务条款",
+    "contactUs": "联系我们",
+    "contactUsTitle": "联系我们",
+    "allRightsReserved": "版权所有。"
+  },
+  "NotFound": {
+    "title": "哎呀！页面未找到",
+    "description": "你寻找的页面不存在或已被移动。",
+    "imageAlt": "404 未找到",
+    "backHome": "返回首页"
+  },
+  "HomeMetadata": {
+    "title": "AI Anime Generator | 在线创建自定义动漫艺术",
+    "description": "使用我们免费的AI动漫生成器将你的想法转化为令人惊叹的动漫艺术。从文字描述即刻创建独特的角色和场景。"
+  },
+  "FeatureMetadata": {
+    "title": "AI Anime Generator功能 | 高级动漫创作工具",
+    "description": "探索我们AI动漫生成器的强大功能。从文字提示轻松创建自定义动漫角色、场景和艺术作品的易用工具。"
+  },
+  "InspirationMetadata": {
+    "title": "动漫艺术灵感画廊 | AI生成动漫示例",
+    "description": "浏览我们的AI生成动漫艺术画廊以获取灵感。看看我们的AI动漫生成器能创造什么，激发你的创意。"
+  },
+  "MyInspirationMetadata": {
+    "title": "我的AI动漫创作 | 个人动漫艺术画廊",
+    "description": "查看和管理你的AI生成动漫作品个人收藏。重温你的创作并为新项目获取灵感。"
+  },
+  "PricingMetadata": {
+    "title": "AI Anime Generator定价 | 适合每位创作者的计划",
+    "description": "找到适合你需求的完美AI Anime Generator计划。从免费试用到高级功能，我们为所有动漫艺术家提供灵活选择。"
+  }
 }

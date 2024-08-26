@@ -1,0 +1,183 @@
+{
+  "Hero": {
+    "h1": "Créez votre monde d'anime unique",
+    "h2": "Utilisez la technologie IA pour générer facilement des personnages et des scènes d'anime uniques."
+  },
+  "Generator": {
+    "promptPlaceholder": "Décrivez votre personnage ou scène d'anime...",
+    "buttonTextGenerate": "Générer",
+    "buttonTextGenerating": "Génération en cours",
+    "loadingText": "Génération de votre anime...",
+    "noContentError": "Veuillez entrer un prompt avant de générer !",
+    "toastSuccess": "Anime généré avec succès !",
+    "failedError": "Échec de la génération de l'image : ",
+    "nsfwError": "Contenu inapproprié détecté. Veuillez essayer un prompt différent.",
+    "toastError": "Une erreur inconnue s'est produite lors de la génération de l'image",
+    "genResult": "Aperçu de l'anime généré",
+    "genResultDes": "Voici un aperçu de l'anime que vous avez généré.",
+    "genResultLoading": "Génération de votre anime...",
+    "genResultLoadingDes": "Votre anime est en cours de génération...",
+    "genResultError": "Échec de la génération de l'anime : ",
+    "genResultErrorDes": "Veuillez réessayer.",
+    "galleryLoadError": "Échec du chargement des images. Veuillez réessayer plus tard.",
+    "galleryLoading": "Chargement...",
+    "galleryTitle": "Créé avec AI Anime Generator",
+    "galleryViewMore": "Voir plus d'inspiration",
+    "animeDetails": "Détails de l'anime",
+    "animeDetailsAlt": "Aperçu de l'anime que vous avez généré.",
+    "prompt": "Prompt",
+    "model": "Modèle",
+    "createTime": "Créé le",
+    "copyPrompt": "Copier le prompt",
+    "copySuccess": "Prompt copié avec succès !",
+    "copyError": "Erreur lors de la copie du prompt : ",
+    "download": "Télécharger l'anime",
+    "downloadSuccess": "Anime téléchargé avec succès !"
+  },
+  "Inspiration": {
+    "metaTitle": "AI Anime Generator - Page d'inspiration",
+    "metaDescription": "Explorez des images d'anime générées par IA et trouvez l'inspiration pour vos créations.",
+    "ogTitle": "AI Anime Generator - Page d'inspiration",
+    "ogDescription": "Explorez des images d'anime générées par IA et trouvez l'inspiration pour vos créations.",
+    "ogImageAlt": "AI Anime Generator",
+    "title": "Inspiration",
+    "breadcrumbHome": "Accueil",
+    "breadcrumbInspiration": "Inspiration"
+  },
+  "MyInspiration": {
+    "title": "Mon inspiration anime",
+    "breadcrumbHome": "Accueil",
+    "breadcrumbMyInspiration": "Mon inspiration",
+    "createFirstAnime": "Créez votre premier anime",
+    "startCreating": "Commencez à créer vos inspirations d'anime et elles apparaîtront ici !",
+    "aiGeneratedImage": "Image d'anime générée par IA",
+    "noInspirations": "Aucune inspiration trouvée",
+    "loading": "Chargement...",
+    "promptCopied": "Prompt copié avec succès !",
+    "promptCopyFailed": "Échec de la copie du prompt : ",
+    "downloadStarted": "Téléchargement commencé",
+    "downloadFailed": "Échec du téléchargement de l'image : ",
+    "fullView": "Vue complète de",
+    "imageDetails": "Détails de l'image",
+    "prompt": "Prompt",
+    "model": "Modèle",
+    "createdOn": "Créé le",
+    "styles": "Styles",
+    "copyPrompt": "Copier le prompt",
+    "downloadImage": "Télécharger l'image"
+  },
+  "Pagination": {
+    "previous": "Précédent",
+    "next": "Suivant",
+    "page": "Page"
+  },
+  "Feature": {
+    "h2": "Nos fonctionnalités",
+    "h3": "Le seul générateur d'anime IA dont vous avez besoin",
+    "breadcrumbHome": "Accueil",
+    "breadcrumbFeature": "Fonctionnalités",
+    "feature1": "Création alimentée par l'IA",
+    "description1": "Utilisez une technologie IA de pointe pour donner vie à vos idées d'anime à partir d'une simple description textuelle.",
+    "feature2": "Conception de personnages d'anime",
+    "description2": "Créez facilement vos propres personnages d'anime uniques avec notre générateur d'anime IA. Transformez vos mots et idées en visuels époustouflants !",
+    "feature3": "Styles artistiques variés",
+    "description3": "Générez des animes dans une variété de styles, du classique au moderne, pour répondre à différentes préférences et visions artistiques.",
+    "feature4": "Sortie de haute qualité",
+    "description4": "Profitez d'images d'anime haute résolution et riches en détails que vous pouvez utiliser directement dans vos projets ou pour votre plaisir personnel.",
+    "feature5": "Interface conviviale",
+    "description5": "Notre plateforme intuitive permet à quiconque de créer un art d'anime impressionnant, quelles que soient ses compétences artistiques.",
+    "button": "Générer un anime IA"
+  },
+  "HowItWorks": {
+    "h2": "Comment générer un anime avec l'IA",
+    "h3": "Processus simple en 3 étapes pour créer votre anime",
+    "description1_title": "Décrivez votre idée",
+    "description1": "Entrez une description détaillée du personnage ou de la scène d'anime que vous souhaitez créer.",
+    "description2_title": "Génération par l'IA",
+    "description2": "Notre IA avancée traite votre description et génère une œuvre d'art d'anime unique.",
+    "description3_title": "Téléchargez et profitez",
+    "description3": "Prévisualisez l'image générée, faites des ajustements si nécessaire, puis téléchargez votre création.",
+    "button": "Générer un anime IA"
+  },
+  "Pricing": {
+    "h2": "Tarification",
+    "h3": "Choisissez le plan adapté pour générer plus d'anime",
+    "breadcrumbHome": "Accueil",
+    "breadcrumbPricing": "Tarification",
+    "monthly": "Mensuel",
+    "annually": "Annuel",
+    "saveUpTo": "Économisez jusqu'à 25%",
+    "bestValue": "Meilleure valeur",
+    "mostPopular": "Le plus populaire",
+    "basic_button": "S'abonner",
+    "free_button": "Commencer",
+    "billed": "Facturé annuellement",
+    "basic_title": "Basique",
+    "pro_title": "Pro",
+    "free_title": "Gratuit",
+    "subscribe": "S'abonner à",
+    "plan": "Plan",
+    "premium": "Les services premium seront disponibles",
+    "soon": "bientôt. Laissez votre e-mail et nous vous informerons !",
+    "cancel": "Annuler",
+    "submit": "Envoyer",
+    "submit1": "L'utilisateur",
+    "submit2": "souhaite s'abonner au",
+    "submit3": "plan",
+    "submitSuccess": "Merci pour votre intérêt ! Nous vous informerons lorsque les services premium seront disponibles."
+  },
+  "Testimonial": {
+    "h2": "Ce que disent nos utilisateurs",
+    "description": "Écoutez nos utilisateurs satisfaits parler de leur expérience avec AI Anime Generator."
+  },
+  "Faq": {
+    "h2": "Questions fréquentes sur AI Anime Generator"
+  },
+  "CTA": {
+    "h2": "Transformez du texte en anime avec notre générateur d'anime IA gratuit",
+    "h3": "Capturez vos pensées et donnez vie à vos idées avec AI Anime Generator à partir de texte ! Entrez simplement vos mots-clés dans la boîte pour enrichir la description de votre image et obtenir le résultat parfait. Avec l'application AI Anime Generator, la création d'anime artistique est plus facile que jamais.",
+    "button": "Générer un anime IA"
+  },
+  "footer": {
+    "productTitle": "AI Anime Generator",
+    "productDescription": "Capturez vos pensées et donnez vie à vos idées avec AI Anime Generator à partir de texte ! Entrez simplement vos mots-clés dans la boîte pour enrichir la description de votre image et obtenir le résultat parfait. Avec l'application AI Anime Generator, la création d'anime artistique est plus facile que jamais.",
+    "ourProducts": "Nos produits",
+    "aiAnimeGenerator": "AI Anime Generator",
+    "aiAnimeGeneratorTitle": "AI Anime Generator",
+    "usefulLinks": "Liens utiles",
+    "resources": "Ressources",
+    "privacyPolicy": "Politique de confidentialité",
+    "privacyPolicyTitle": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation",
+    "termsOfServiceTitle": "Conditions d'utilisation",
+    "contactUs": "Contactez-nous",
+    "contactUsTitle": "Contactez-nous",
+    "allRightsReserved": "Tous droits réservés."
+  },
+  "NotFound": {
+    "title": "Oups ! Page non trouvée",
+    "description": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "imageAlt": "404 Non trouvé",
+    "backHome": "Retour à l'accueil"
+  },
+  "HomeMetadata": {
+    "title": "AI Anime Generator | Créez de l'art anime personnalisé en ligne",
+    "description": "Transformez vos idées en art anime époustouflant avec notre générateur d'anime IA gratuit. Créez instantanément des personnages et des scènes uniques à partir de descriptions textuelles."
+  },
+  "FeatureMetadata": {
+    "title": "Fonctionnalités de AI Anime Generator | Outils avancés de création d'anime",
+    "description": "Découvrez les puissantes fonctionnalités de notre générateur d'anime IA. Des outils faciles à utiliser pour créer des personnages, des scènes et des œuvres d'art d'anime personnalisés à partir de prompts textuels."
+  },
+  "InspirationMetadata": {
+    "title": "Galerie d'inspiration d'art anime | Exemples d'anime générés par IA",
+    "description": "Parcourez notre galerie d'art anime généré par IA pour trouver l'inspiration. Voyez ce que notre générateur d'anime IA peut créer et stimulez votre créativité."
+  },
+  "MyInspirationMetadata": {
+    "title": "Mes créations d'anime IA | Galerie d'art anime personnelle",
+    "description": "Visualisez et gérez votre collection personnelle d'œuvres d'art anime générées par IA. Revisitez vos créations et trouvez l'inspiration pour de nouveaux projets."
+  },
+  "PricingMetadata": {
+    "title": "Tarification de AI Anime Generator | Plans pour chaque créateur",
+    "description": "Trouvez le plan AI Anime Generator parfait pour vos besoins. Des essais gratuits aux fonctionnalités premium, nous offrons des options flexibles pour tous les artistes d'anime."
+  }
+}

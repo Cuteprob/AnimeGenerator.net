@@ -1,0 +1,183 @@
+{
+  "Hero": {
+    "h1": "あなただけのアニメの世界を創造しよう",
+    "h2": "AI技術を使用して、ユニークなアニメキャラクターやシーンを簡単に生成できます。"
+  },
+  "Generator": {
+    "promptPlaceholder": "アニメキャラクターやシーンを描写してください...",
+    "buttonTextGenerate": "生成",
+    "buttonTextGenerating": "生成中",
+    "loadingText": "アニメを生成中...",
+    "noContentError": "生成前にプロンプトを入力してください！",
+    "toastSuccess": "アニメの生成に成功しました！",
+    "failedError": "画像の生成に失敗しました: ",
+    "nsfwError": "不適切なコンテンツが検出されました。別のプロンプトをお試しください。",
+    "toastError": "画像の生成中に不明なエラーが発生しました",
+    "genResult": "生成されたアニメのプレビュー",
+    "genResultDes": "これはあなたが生成したアニメのプレビューです。",
+    "genResultLoading": "アニメを生成中...",
+    "genResultLoadingDes": "あ���たのアニメを生成しています...",
+    "genResultError": "アニメの生成に失敗しました: ",
+    "genResultErrorDes": "もう一度お試しください。",
+    "galleryLoadError": "画像の読み込みに失敗しました。後でもう一度お試しください。",
+    "galleryLoading": "読み込み中...",
+    "galleryTitle": "AI Anime Generatorで作成",
+    "galleryViewMore": "さらにインスピレーションを見る",
+    "animeDetails": "アニメの詳細",
+    "animeDetailsAlt": "生成したアニメのプレビュー。",
+    "prompt": "プロンプト",
+    "model": "モデル",
+    "createTime": "作成日時",
+    "copyPrompt": "プロンプトをコピー",
+    "copySuccess": "プロンプトのコピーに成功しました！",
+    "copyError": "プロンプトのコピーに失敗しました: ",
+    "download": "アニメをダウンロード",
+    "downloadSuccess": "アニメのダウンロードに成功しました！"
+  },
+  "Inspiration": {
+    "metaTitle": "AI Anime Generator - インスピレーションページ",
+    "metaDescription": "AI生成のアニメ画像を探索し、あなたの創作のインスピレーションを得ましょう。",
+    "ogTitle": "AI Anime Generator - インスピレーションページ",
+    "ogDescription": "AI生成のアニメ画像を探索し、あなたの創作のインスピレーションを得ましょう。",
+    "ogImageAlt": "AI Anime Generator",
+    "title": "インスピレーション",
+    "breadcrumbHome": "ホーム",
+    "breadcrumbInspiration": "インスピレーション"
+  },
+  "MyInspiration": {
+    "title": "私のアニメインスピレーション",
+    "breadcrumbHome": "ホーム",
+    "breadcrumbMyInspiration": "私のインスピレーション",
+    "createFirstAnime": "最初のアニメを作成する",
+    "startCreating": "アニメのインスピレーションを作成し始めると、ここに表示されます！",
+    "aiGeneratedImage": "AI生成アニメ画像",
+    "noInspirations": "インスピレーションが見つかりません",
+    "loading": "読み込み中...",
+    "promptCopied": "プロンプトのコピーに成功しました！",
+    "promptCopyFailed": "プロンプトのコピーに失敗しました: ",
+    "downloadStarted": "ダウンロードを開始しました",
+    "downloadFailed": "画像のダウンロードに失敗しました: ",
+    "fullView": "の全体表示",
+    "imageDetails": "画像の詳細",
+    "prompt": "プロンプト",
+    "model": "モデル",
+    "createdOn": "作成日時",
+    "styles": "スタイル",
+    "copyPrompt": "プロンプトをコピー",
+    "downloadImage": "画像をダウンロード"
+  },
+  "Pagination": {
+    "previous": "前へ",
+    "next": "次へ",
+    "page": "ページ"
+  },
+  "Feature": {
+    "h2": "機能",
+    "h3": "あなたが必要とする唯一のAIアニメジェネレーター",
+    "breadcrumbHome": "ホーム",
+    "breadcrumbFeature": "機能",
+    "feature1": "AI駆動の創作",
+    "description1": "最先端のAI技術を使用して、テキストの説明だけであなたのアニメのアイデアを現実のものにします。",
+    "feature2": "アニメキャラクターデザイン",
+    "description2": "AI Anime Generatorを使用して、簡単にあなた独自のユニークなアニメキャラクターを作成できます。あなたの言葉やアイデアを素晴らしいビジュアルに変換します！",
+    "feature3": "多様なアートスタイル",
+    "description3": "クラシックからモダンまで、さまざまなスタイルでアニメを生成し、異なる好みやアーティスティックなビジョンに対応します。",
+    "feature4": "高品質な出力",
+    "description4": "プロジェクトや個人的な楽しみのために直接使用できる、高解像度で詳細なアニメ画像をお楽しみください。",
+    "feature5": "使いやすいインターフェース",
+    "description5": "直感的なプラットフォームにより、アーティスティックなスキルに関係なく、誰でも素晴らしいアニメアートを作成できます。",
+    "button": "AIアニメを生成する"
+  },
+  "HowItWorks": {
+    "h2": "AIアニメの生成方法",
+    "h3": "アニメを生成する3つの簡単なステップ",
+    "description1_title": "アイデアを説明する",
+    "description1": "作成したいアニメキャラクターやシーンの詳細な説明を入力します。",
+    "description2_title": "AI生成",
+    "description2": "高度なAIがあなたの説明を処理し、ユニークなアニメアートワークを生成します。",
+    "description3_title": "ダウンロードして楽しむ",
+    "description3": "生成された画像をプレビューし、必要に応じて調整を行い、あなたの作品をダウンロードします。",
+    "button": "AIアニメを生成する"
+  },
+  "Pricing": {
+    "h2": "料金プラン",
+    "h3": "適切なプランを選んでより多くのアニメを生成",
+    "breadcrumbHome": "ホーム",
+    "breadcrumbPricing": "料金プラン",
+    "monthly": "月払い",
+    "annually": "年払い",
+    "saveUpTo": "最大25%お得",
+    "bestValue": "最高の価値",
+    "mostPopular": "最も人気",
+    "basic_button": "サブスクライブ",
+    "free_button": "始める",
+    "billed": "年間請求",
+    "basic_title": "ベーシック",
+    "pro_title": "プロ",
+    "free_title": "無料",
+    "subscribe": "サブスクライブ",
+    "plan": "プラン",
+    "premium": "プレミアムサービスは",
+    "soon": "まもなく利用可能になります。メールアドレスを残していただければ、お知らせいたします！",
+    "cancel": "キャンセル",
+    "submit": "送信",
+    "submit1": "ユーザー",
+    "submit2": "が",
+    "submit3": "プランに申し込みたいと思っています",
+    "submitSuccess": "ご興味をお持ちいただきありがとうございます！プレミアムサービスが利用可能になりましたら、お知らせいたします。"
+  },
+  "Testimonial": {
+    "h2": "ユーザーの声",
+    "description": "AI Anime Generatorを使用した満足いただいているユーザーの体験談をお聞きください。"
+  },
+  "Faq": {
+    "h2": "AI Anime Generatorについてよくある質問"
+  },
+  "CTA": {
+    "h2": "無料のAIアニメジェネレーターでテキストをアニメに変換",
+    "h3": "テキストからAI Anime Generatorであなたの思考をキャプチャし、アイデアを生き生きとさせましょう！画像の説明を豊かにし、完璧な結果を得るために、ボックスにキーワードを入力するだけです。AI Anime Generatorアプリを使えば、アーティスティックなアニメの作成がこれまで以上に簡単になります。",
+    "button": "AIアニメを生成する"
+  },
+  "footer": {
+    "productTitle": "AI Anime Generator",
+    "productDescription": "テキストからAI Anime Generatorであなたの思考をキャプチャし、アイデアを生き生きとさせましょう！画像の説明を豊かにし、完璧な結果を得るために、ボックスにキーワードを入力するだけです。AI Anime Generatorアプリを使えば、アーティスティックなアニメの作成がこれまで以上に簡単になります。",
+    "ourProducts": "当社の製品",
+    "aiAnimeGenerator": "AI Anime Generator",
+    "aiAnimeGeneratorTitle": "AI Anime Generator",
+    "usefulLinks": "有用なリンク",
+    "resources": "リソース",
+    "privacyPolicy": "プライバシーポリシー",
+    "privacyPolicyTitle": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "termsOfServiceTitle": "利用規約",
+    "contactUs": "お問い合わせ",
+    "contactUsTitle": "お問い合わせ",
+    "allRightsReserved": "All rights reserved."
+  },
+  "NotFound": {
+    "title": "おっと！ページが見つかりません",
+    "description": "お探しのページは存在しないか、移動された可能性があります。",
+    "imageAlt": "404 見つかりません",
+    "backHome": "ホームに戻る"
+  },
+  "HomeMetadata": {
+    "title": "AI Anime Generator | オンラインでカスタムアニメアートを作成",
+    "description": "無料のAI Anime Generatorで、あなたのアイデアを素晴らしいアニメアートに変換しましょう。テキストの説明から瞬時にユニークなキャラクターやシーンを作成できます。"
+  },
+  "FeatureMetadata": {
+    "title": "AI Anime Generatorの機能 | 高度なアニメ作成ツール",
+    "description": "AI Anime Generatorの強力な機能をご覧ください。テキストプロンプトからカスタムアニメキャラクター、シーン、アートワークを作成する使いやすいツールです。"
+  },
+  "InspirationMetadata": {
+    "title": "アニメアートインスピレーションギャラリー | AI生成アニメの例",
+    "description": "インスピレーションを得るために、AI生成のアニメアートギャラリーをご覧ください。AI Anime Generatorで何が可能かを見て、あなたの創造性を刺激しましょう。"
+  },
+  "MyInspirationMetadata": {
+    "title": "私のAIアニメ作品 | パーソナルアニメアートギャラリー",
+    "description": "AI生成のアニメアートワークのパーソナルコレクションを表示および管理します。あなたの作品を振り返り、新しいプロジェクトのインスピレーションを得ましょう。"
+  },
+  "PricingMetadata": {
+    "title": "AI Anime Generatorの料金 | すべてのクリエイターのためのプラン",
+    "description": "あなたのニーズに合ったAI Anime Generatorの完璧なプランを見つけましょう。無料トライアルからプレミアム機能まで、すべてのアニメアーティストに柔軟なオプションを提供しています。"
+  }
+}

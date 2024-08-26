@@ -24,6 +24,8 @@ const config = {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        first:"#4F46E5",
+        second:"#EC4899",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -53,6 +55,13 @@ const config = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      clipPath: {
+        'hero': 'polygon(0 0, 100% 0, 100% 98%, 0% 100%)',
+        'how-it-works': 'polygon(0 2%, 100% 0, 100% 98%, 0% 100%)',
+      },
+      fontFamily:{
+        sans: ['Poppins', 'sans-serif']
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
@@ -74,10 +83,7 @@ const config = {
       },
     },
   },
-  plugins: [
-    require("tailwindcss-animate"),
-    require('daisyui'),
-  ],
+  plugins: [require("tailwindcss-animate"),require ('daisyui'),require ('@tailwindcss/aspect-ratio'),require('tailwind-clip-path')],
 } satisfies Config
 
 export default config
