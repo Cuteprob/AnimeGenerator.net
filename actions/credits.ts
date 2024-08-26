@@ -1,9 +1,8 @@
 import { UserCredits } from "@/types/user";
-
 import { getDb } from "@/lib/database";
 
+const sql = getDb();
 
-const db = getDb();
 export async function checkUserCredits(
     userId: string,
     count: number,
@@ -20,32 +19,51 @@ export async function consumeUserCredits(userId: string, count: number) {
     consumeCredits(credits, count);
 
     // 更新数据库
-    await db.query(`
+    await sql`
         UPDATE user_credits
-        SET free_credits_left = $1, free_credits_used = $2, paid_credits_left = $3, paid_credits_used = $4, updated_at = now()
-        WHERE user_id = $5
-    `, [credits.free.left, credits.free.used, credits.purchased?.left || 0, credits.purchased?.used || 0, userId]);
+        SET free_credits_left = ${credits.free.left}, 
+            free_credits_used = ${credits.free.used}, 
+            paid_credits_left = ${credits.purchased?.left || 0}, 
+            paid_credits_used = ${credits.purchased?.used || 0}, 
+            updated_at = now()
+        WHERE user_id = ${userId}
+    `;
 }
 
 export async function getUserCredits(userId: string): Promise<UserCredits> {
     // 从数据库中获取用户的 credits
-    const res = await db.query(
-        `SELECT free_credits_total, free_credits_used, paid_credits_total, paid_credits_used FROM user_credits WHERE user_id = $1`,
-        [userId]
-    );
+    const res = await sql`
+        SELECT free_credits_total, free_credits_used, paid_credits_total, paid_credits_used 
+        FROM user_credits 
+        WHERE user_id = ${userId}
+    `;
 
-    if (res.rows.length === 0) {
+    if (res.length === 0) {
         // 如果是首次登录，初始化用户的 credits 并存入数据库
         const initialCredits = generateInitialUserCredits();
-        await db.query(`
-            INSERT INTO user_credits (user_id, free_credits_total, free_credits_used, free_credits_left, paid_credits_total, paid_credits_used, paid_credits_left, updated_at)
-            VALUES ($1, $2, $3, $4, $5, $6, $7, now())
-        `, [userId, initialCredits.free.total, initialCredits.free.used, initialCredits.free.left, 0, 0, 0]);
+        await sql`
+            INSERT INTO user_credits (
+                user_id, free_credits_total, free_credits_used, free_credits_left, 
+                paid_credits_total, paid_credits_used, paid_credits_left, updated_at
+            )
+            VALUES (
+                ${userId}, ${initialCredits.free.total}, ${initialCredits.free.used}, ${initialCredits.free.left}, 
+                0, 0, 0, now()
+            )
+        `;
 
         return initialCredits;
     }
 
-    const row = res.rows[0];
+    const row = res[0];
+
+    // 添加类型检查和错误处理
+    if (typeof row.free_credits_total !== 'number' || 
+        typeof row.free_credits_used !== 'number' || 
+        typeof row.paid_credits_total !== 'number' || 
+        typeof row.paid_credits_used !== 'number') {
+        throw new Error('Invalid data format from database');
+    }
 
     // 返回用户的 credits 信息
     return {

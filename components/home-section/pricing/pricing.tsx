@@ -6,7 +6,7 @@ import { PricingList } from '@/config/pricingList';
 
 const PricingSection: React.FC<PricingSectionProps> = ({ locale, langName }) => {
   const [isAnnual, setIsAnnual] = useState(true);
-  // console.log("langName ==== >", langName);
+  console.log("langName ==== >", langName);
   const getPricingKey = (langName: string | undefined): string => {
 
     if (typeof langName === 'string' && langName.length > 0) {

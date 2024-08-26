@@ -2,7 +2,61 @@ import { PlanProps } from '@/types/pricing';
 
 export const PricingList: { [key: string]: PlanProps[] } = {
   PRICING_EN: [
-    // ... (保持原有的 PRICING_EN 内容不变)
+    {
+      title: "Free",
+      price: 0,
+      annualDiscount: 0,
+      duration: "month",
+      credits: 100,
+      features: [
+        { text: "100 Credits", included: true },
+        { text: "3 Anime per Day", included: true },
+        { text: "3 Days History", included: true },
+        { text: "1 Concurrent Task", included: true },
+        { text: "Low Generation Speed", included: true },
+        { text: "Private Generation", included: false },
+        { text: "Commercial License", included: false },
+        { text: "Priority Email Support", included: false },
+        { text: "Download Original Quality PNG", included: false },
+      ],
+    },
+    {
+      title: "Basic",
+      price: 9.99,
+      annualDiscount: 20,
+      duration: "month",
+      credits: 500,
+      features: [
+        { text: "500 Credits", included: true },
+        { text: "Unlimited", included: true },
+        { text: "30 Days History", included: true },
+        { text: "Batch Task Running", included: true },
+        { text: "Fast Generation Speed", included: true },
+        { text: "Private Generation", included: true },
+        { text: "Commercial License", included: true },
+        { text: "Priority Email Support", included: true },
+        { text: "Download Original Quality PNG", included: true },
+      ],
+      recommend: true,
+    },
+    {
+      title: "Pro",
+      price: 19.99,
+      annualDiscount: 25,
+      duration: "month",
+      credits: 1500,
+      features: [
+        { text: "1500 Credits", included: true },
+        { text: "Unlimited", included: true },
+        { text: "Unlimited History", included: true },
+        { text: "Batch Task Running", included: true },
+        { text: "Fastest Generation Speed", included: true },
+        { text: "Private Generation", included: true },
+        { text: "Commercial License", included: true },
+        { text: "Priority Email Support", included: true },
+        { text: "Download Original Quality PNG", included: true },
+      ],
+    },
   ],
   
   PRICING_ZH: [
