@@ -5,7 +5,6 @@ export async function generateMetadata(
   { params }: { params: { lang: string } }
 ): Promise<Metadata> {
   const lang = params.lang || defaultLocale;
-  console.log("Current lang:======>", lang);
   const dict = await getDictionary(lang);
 
   return {

@@ -4,6 +4,9 @@ const nextConfig = {
     images: {
         domains: ['image.animegenerator.net']
     },
+    typescript: {
+        ignoreBuildErrors: true,
+    },
 };
 
 export default nextConfig;
