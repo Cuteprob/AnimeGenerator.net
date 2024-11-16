@@ -18,13 +18,13 @@ export const footerData: FooterProps = {
       title: "usefulLinks",
       links: [
         {
-          name: "Sprunki Phase",
-          title: "SprunkiPhase",
+          name: "sprunkiPhase",
+          title: "sprunkiPhaseTitle",
           href: "https://sprunkiphase.xyz",
         },
         {
-          name: "shady bears",
-          title: "shadyBears",
+          name: "shadyBears",
+          title: "shadyBearsTitle",
           href: "https://www.shadybears.org",
         },
       ],

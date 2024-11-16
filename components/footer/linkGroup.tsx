@@ -39,6 +39,8 @@ const LinkGroup: React.FC<LinkGroupProps> = ({
                       color="foreground"
                       underline="hover"
                       className="text-gray-400"
+                      rel="follow"
+                      isExternal={link.href.startsWith('http')}
                     >
                       {dict.footer[link.name]}
                     </Link>
