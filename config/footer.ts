@@ -10,13 +10,24 @@ export const footerData: FooterProps = {
         {
           name: "aiAnimeGenerator",
           title: "aiAnimeGeneratorTitle",
-          href: "https://animegenerator.net",
+          href: "https://www.animegenerator.net",
         },
       ],
     },
     {
       title: "usefulLinks",
-      links: [],
+      links: [
+        {
+          name: "Sprunki Phase",
+          title: "SprunkiPhase",
+          href: "https://sprunkiphase.xyz",
+        },
+        {
+          name: "shady bears",
+          title: "shadyBears",
+          href: "https://www.shadybears.org",
+        },
+      ],
     },
     {
       title: "resources",
