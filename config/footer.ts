@@ -27,6 +27,11 @@ export const footerData: FooterProps = {
           title: "shadyBearsTitle",
           href: "https://www.shadybears.org",
         },
+        {
+          name: "sprunkiPhase4",
+          title: "sprunkiPhase4Title",
+          href: "https://sprunkiphase4.app",
+        },
       ],
     },
     {
